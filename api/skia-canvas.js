@@ -1,4 +1,4 @@
-const { Canvas } = require("skia-canvas");
+const { Canvas } = require("canvas");
 
 module.exports = async (req, res) => {
   const canvas = new Canvas(300, 300);
